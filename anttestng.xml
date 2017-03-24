@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Test">
+    <test name="smoke testcase">
+        <classes>
+            <class name="NgPackage.DependencyAnnotations"/>
+            
+           
+            
+            </classes>
+        </test>
+    </suite>

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Automation Test">
+    <test name="smoke testcase">
+        <groups>
+            
+            <run>
+                                <include name="Priority1"/>
+                
+                
+                </run>
+        </groups>
+        
+            <classes>
+                
+                
+            <class name="NgPackage.AnnotationsTesting"/>
+                            <class name="NgPackage.DependencyAnnotations"/>
+                
+                </classes>
+           
+        </test>
+    </suite>
